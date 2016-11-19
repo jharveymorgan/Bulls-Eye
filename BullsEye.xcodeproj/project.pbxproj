@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2BE7251CF6996700F23B08 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = BA2BE7241CF6996700F23B08 /* BullsEye.html */; };
 		BA8100571CF3ADE700082931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8100561CF3ADE700082931 /* AppDelegate.swift */; };
 		BA8100591CF3ADE700082931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8100581CF3ADE700082931 /* ViewController.swift */; };
 		BA81005C1CF3ADE700082931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA81005A1CF3ADE700082931 /* Main.storyboard */; };
 		BA81005E1CF3ADE700082931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA81005D1CF3ADE700082931 /* Assets.xcassets */; };
-		BA8100611CF3ADE700082931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA81005F1CF3ADE700082931 /* LaunchScreen.storyboard */; };
+		BA90E53E1CF6AB6D002B3CAF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA90E53C1CF6AB6D002B3CAF /* Default-568h@2x.png */; };
+		BA90E53F1CF6AB6D002B3CAF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA90E53D1CF6AB6D002B3CAF /* Default@2x.png */; };
+		BAF174DB1CF6715A004025AF /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF174DA1CF6715A004025AF /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA2BE7241CF6996700F23B08 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		BA8100531CF3ADE700082931 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8100561CF3ADE700082931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA8100581CF3ADE700082931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA81005B1CF3ADE700082931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA81005D1CF3ADE700082931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BA8100601CF3ADE700082931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA8100621CF3ADE700082931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA90E53C1CF6AB6D002B3CAF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BA90E53D1CF6AB6D002B3CAF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BAF174DA1CF6715A004025AF /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +60,14 @@
 		BA8100551CF3ADE700082931 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				BA90E53C1CF6AB6D002B3CAF /* Default-568h@2x.png */,
+				BA90E53D1CF6AB6D002B3CAF /* Default@2x.png */,
+				BA2BE7241CF6996700F23B08 /* BullsEye.html */,
 				BA8100561CF3ADE700082931 /* AppDelegate.swift */,
+				BAF174DA1CF6715A004025AF /* AboutViewController.swift */,
 				BA8100581CF3ADE700082931 /* ViewController.swift */,
 				BA81005A1CF3ADE700082931 /* Main.storyboard */,
 				BA81005D1CF3ADE700082931 /* Assets.xcassets */,
-				BA81005F1CF3ADE700082931 /* LaunchScreen.storyboard */,
 				BA8100621CF3ADE700082931 /* Info.plist */,
 			);
 			path = BullsEye;
@@ -91,12 +100,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Jordan Harvey-Morgan";
 				TargetAttributes = {
 					BA8100521CF3ADE700082931 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = C9L43P9G27;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -123,7 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA8100611CF3ADE700082931 /* LaunchScreen.storyboard in Resources */,
+				BA2BE7251CF6996700F23B08 /* BullsEye.html in Resources */,
+				BA90E53E1CF6AB6D002B3CAF /* Default-568h@2x.png in Resources */,
+				BA90E53F1CF6AB6D002B3CAF /* Default@2x.png in Resources */,
 				BA81005E1CF3ADE700082931 /* Assets.xcassets in Resources */,
 				BA81005C1CF3ADE700082931 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF174DB1CF6715A004025AF /* AboutViewController.swift in Sources */,
 				BA8100591CF3ADE700082931 /* ViewController.swift in Sources */,
 				BA8100571CF3ADE700082931 /* AppDelegate.swift in Sources */,
 			);
@@ -150,14 +163,6 @@
 				BA81005B1CF3ADE700082931 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BA81005F1CF3ADE700082931 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA8100601CF3ADE700082931 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -177,8 +182,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -223,8 +230,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -243,6 +252,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -252,10 +262,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jharveymorgan.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -263,10 +277,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jharveymorgan.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -289,6 +307,7 @@
 				BA8100671CF3ADE700082931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
